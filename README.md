@@ -1,4 +1,4 @@
-# Data Analysis in Python with jieba
+# Data Analysis in Python with jieba 
 
 ## Download jieba
 
@@ -27,3 +27,4 @@ swd = sorted(dic.items(), key=itemgetter(1), reverse=True)
 global dic
 dic = {}
 ```
+###4.Use jieba to get part-of-speech
