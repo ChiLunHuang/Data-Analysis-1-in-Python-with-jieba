@@ -1,2 +1,15 @@
-# Data-Analysis-in-Python-with-jieba-1
-A example for pos (part of speech) by jieba 
+# Data Analysis in Python with jieba
+
+## Download jieba
+
+```
+pip install jieba
+```
+
+## Main topic in this example
+
+###1.How to build a def 
+
+###2.Use itemgetter to sort data
+
+###3.How to use dictionary dic = {}
