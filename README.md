@@ -17,6 +17,7 @@ def getComment(data) :
 ###2.Use itemgetter to sort data
 
 ```python
+from operator import itemgetter #sort
 swd = sorted(dic.items(), key=itemgetter(1), reverse=True)
 ```
 [see more...](https://docs.python.org/3.5/howto/sorting.html)
@@ -28,3 +29,9 @@ global dic
 dic = {}
 ```
 ###4.Use jieba to get part-of-speech
+
+```
+import jieba 
+
+words = jieba.cut(comment) 
+```
