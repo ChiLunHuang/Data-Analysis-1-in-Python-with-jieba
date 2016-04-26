@@ -30,7 +30,7 @@ dic = {}
 ```
 ###4.Use jieba to get part-of-speech
 
-```
+```python
 import jieba 
 
 words = jieba.cut(comment) 
